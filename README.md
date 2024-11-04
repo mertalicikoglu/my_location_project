@@ -86,6 +86,7 @@ To start the development server, use the following command:
 ```sh
 uvicorn app.main:app --reload
 ```
+You must change connection url to "postgresql://myuser:mypassword@localhost/location_data"
 This will start the server at `http://127.0.0.1:8000` and automatically reload for any code changes.
 
 ## License
